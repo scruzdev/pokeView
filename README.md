@@ -23,7 +23,7 @@ PokeView es una aplicaci√≥n web que permite a los usuarios buscar y filtrar Pok√
 
 2. Navega al directorio del proyecto:
 
-   cd poke-view
+   cd pokeView
 
 3. Instala las dependencias:
 
