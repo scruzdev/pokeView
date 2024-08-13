@@ -3,7 +3,7 @@
 export function Paginator ({ currentEntries, totalEntries, handlePrevPage, handleNextPage  }) { //eslint-disable-line
 
     const startIndex = currentEntries[0]
-    const endIndex = currentEntries[1]
+    const endIndex = totalEntries < 30 ? totalEntries : currentEntries[1]
 
 
     return(
